@@ -57,7 +57,7 @@ impl Drop for List {
 }
 
 mod test {
-    use super::*;
+    use crate::first::List;
 
     #[test]
     fn basics() {
